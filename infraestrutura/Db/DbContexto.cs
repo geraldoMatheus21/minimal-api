@@ -10,7 +10,7 @@ public class DbContexto : DbContext
     {
         _configuracaoAppSettings = configuracaoAppSettings;
     }
-    public DbSet<administrador> administradors {get; set; } = default!;
+    public DbSet<administrador> Administradores {get; set; } = default!;
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
